@@ -42,11 +42,10 @@ function printQuote() {
 	backgroundChange();
 }
 
-// change the background color of the body and button elements.
+// change the background color of the body.
 function backgroundChange() {
 	var color = colors[getRandomIndex(colors)];
-	bodyElement.setAttribute('style', `background: ${color}`);
-	loadQuoteButton.setAttribute('style', `background: ${color}`);
+	bodyElement.style.backgroundColor = color;
 }
 
 // get a random index number from an Array.
