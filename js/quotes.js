@@ -39,4 +39,16 @@ const quotes = [
 		source: "Jason Mraz",
 		tags: ["adventure", "art", "humor", "life"]
 	},
+	{
+		quote: `We suffer more often in imagination than in reality.`,
+		source: "Seneca",
+	},
+	{
+		quote: `Easy choices, hard life. Hard choices, easy life.`,
+		source: "Jerzy Gregorek",
+	},
+	{
+		quote: `Do what you love, and do it great. Money follows. Simple math, buddy.`,
+		source: "Kobe Bryant",
+	},
 ];

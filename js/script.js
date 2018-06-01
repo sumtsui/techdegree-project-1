@@ -12,7 +12,7 @@ const bodyElement = document.querySelector('body');
 window.addEventListener("load", printQuote);
 
 // when the page is loaded, the refresh feature starts.
-window.addEventListener("load", function() { refresh = setInterval(function() { printQuote() }, refreshInterval); });
+window.addEventListener("load", () => refresh = setInterval(() => printQuote(), refreshInterval));
 
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
@@ -56,5 +56,5 @@ function getRandomIndex(list) {
 // clear interval and then re-assign the refresh varaible to setInterval().
 function resetInterval() {
 	clearInterval(refresh);
-	refresh = setInterval(function() { printQuote() }, refreshInterval);
+	refresh = setInterval(() => printQuote(), refreshInterval);
 }
